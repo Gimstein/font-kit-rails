@@ -9,7 +9,7 @@ Add the following line to your `Gemfile` and run `bundle install`:
 ### Rails 4
 
 ```
-gem 'font-kit-rails', '~> 1.2.0'
+gem 'font-kit-rails', '~> 1.2.1'
 ```
 
 ### Rails 3
@@ -41,6 +41,14 @@ or load a specific font:
 
 ```
  *= require font-kit-rails/ubuntu
+```
+
+```
+ *= require font-kit-rails/roboto
+```
+
+```
+ *= require font-kit-rails/lato
 ```
 
 ## Fonts
@@ -95,6 +103,28 @@ normal
 normal|italic
 600
 600|italic
+bold
+bold|italic
+```
+
+### Roboto
+
+```
+font-family: 'Roboto Condensed'
+
+normal
+normal|italic
+bold
+bold|italic
+```
+
+### Lato
+
+```
+font-family: 'Lato'
+
+normal
+normal|italic
 bold
 bold|italic
 ```
